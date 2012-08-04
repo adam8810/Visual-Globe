@@ -13,10 +13,11 @@ class GetJSON {
         $json_output = $json_output['points'];
         $json_output = $json_output['point'];
 
+        // Alters header so this file is treated as JSON
         header('Content-type: application/json');
 
         $first = TRUE;
-        $count = 0;
+        $count = 0; // TODO: Add count to JSON
 
 
         echo '[[[';
