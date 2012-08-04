@@ -109,14 +109,14 @@
     <strong><a href="http://www.chromeexperiments.com/globe">WebGL Globe</a></strong> <span class="bull">&bull;</span> Created by the Google Data Arts Team <span class="bull">&bull;</span> Data acquired from <a href="http://sedac.ciesin.columbia.edu/gpw/">SEDAC</a>
   </div>
 
-  <div id="currentInfo">
+  <div style="display: none" id="currentInfo">
     <span id="year1990" class="year">1990</span>
     <span id="year1995" class="year">1995</span>
     <span id="year2000" class="year">2000</span>
   </div>
 
   <div id="title">
-    World Population
+    Kaseya Peeps
   </div>
 
   <a id="ce" href="http://www.chromeexperiments.com/globe">
@@ -166,7 +166,7 @@
 
 
       xhr = new XMLHttpRequest();
-      xhr.open('GET', '../globe/population909500.json', true);
+      xhr.open('GET', '../globe/getJSON.php', true);
       xhr.onreadystatechange = function(e) {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
