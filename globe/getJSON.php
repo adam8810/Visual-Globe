@@ -19,9 +19,7 @@ class GetJSON {
         // Alters header so this file is treated as JSON
         header('Content-type: application/json');
 
-        $first = TRUE;
-        $count = 0; // TODO: Add count to JSON
-
+        $first = TRUE; // Simple bool
 
         echo '[[[';
         foreach ($json_output as $index => $j)
@@ -44,7 +42,6 @@ class GetJSON {
         }
         echo ']]]';
     }
-
 }
 
 GetJSON::parseJSON();
