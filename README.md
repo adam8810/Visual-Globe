@@ -1,6 +1,8 @@
 # Visual Globe
 
-Written by Adam Booth using the following libraries and files.
+Written by Adam Booth using the following libraries and files. Quick little side project I decided to look into. The latitude and longitude points I worked with were provided by [Kaseya](http://www.kaseya.com/ "See Kaseya's site"), a remote desktop client used at my workplace. We had other previous visuals so we could see logged in users across the US, but I thought this might be interesting and it was. Project is now closed.
+
+## The Following is provided with the standard WebGL Globe library.
 
 The **WebGL Globe** is an open platform for visualizing geographic
 information in WebGL enabled browsers.
