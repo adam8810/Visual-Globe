@@ -2,8 +2,11 @@
 
 require_once 'link_JSON.php';
 
+// Simple class used to retrieve JSON data
 class GetJSON {
 
+    // This fuction is used to extract specific data formatted in a very
+    // specific way. Alter where needed.
     public function parseJSON()
     {
         $jsonurl = JSONURL; // URL should be changed in link_JSON.php
