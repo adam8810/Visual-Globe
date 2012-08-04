@@ -123,12 +123,12 @@
     <span>This is a Chrome Experiment</span>
   </a>
 
-  <script type="text/javascript" src="/globe/third-party/Three/ThreeWebGL.js"></script>
-  <script type="text/javascript" src="/globe/third-party/Three/ThreeExtras.js"></script>
-  <script type="text/javascript" src="/globe/third-party/Three/RequestAnimationFrame.js"></script>
-  <script type="text/javascript" src="/globe/third-party/Three/Detector.js"></script>
-  <script type="text/javascript" src="/globe/third-party/Tween.js"></script>
-  <script type="text/javascript" src="/globe/globe.js"></script>
+  <script type="text/javascript" src="../globe/third-party/Three/ThreeWebGL.js"></script>
+  <script type="text/javascript" src="../globe/third-party/Three/ThreeExtras.js"></script>
+  <script type="text/javascript" src="../globe/third-party/Three/RequestAnimationFrame.js"></script>
+  <script type="text/javascript" src="../globe/third-party/Three/Detector.js"></script>
+  <script type="text/javascript" src="../globe/third-party/Tween.js"></script>
+  <script type="text/javascript" src="../globe/globe.js"></script>
   <script type="text/javascript">
 
     if(!Detector.webgl){
@@ -166,7 +166,7 @@
 
 
       xhr = new XMLHttpRequest();
-      xhr.open('GET', '/globe/population909500.json', true);
+      xhr.open('GET', '../globe/population909500.json', true);
       xhr.onreadystatechange = function(e) {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {

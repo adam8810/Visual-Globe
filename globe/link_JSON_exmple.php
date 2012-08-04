@@ -1,0 +1,1 @@
+<?php define('jsonurl', 'your_link_here'); ?>
