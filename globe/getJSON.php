@@ -44,5 +44,7 @@ class GetJSON {
     }
 }
 
+// Prints modified JSON to screen. This is used by the javascrip on index.html
+// to get points to draw on the globe.
 GetJSON::parseJSON();
 ?>
