@@ -19,7 +19,7 @@ class GetJSON {
         $count = 0;
 
 
-        echo '[[[';
+        echo '[["loc",[';
         foreach ($json_output as $index => $j)
         {
             if (!$j['ip']) // Eleminate IP data
